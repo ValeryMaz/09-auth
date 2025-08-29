@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import NotesClient from "./Notes.client";
-import { fetchNotes } from "@/lib/api";
+import { fetchNotes } from "../../../../../lib/api/clientApi";
 
 interface fetchParams {
   params: Promise<{ slug: string[] }>;
